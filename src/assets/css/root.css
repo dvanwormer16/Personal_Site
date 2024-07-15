@@ -20,30 +20,29 @@
     --bodyFontSize: 1rem;
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
-}
-
-body {
+  }
+  body {
     margin: 0;
     padding: 0;
-}
-
-*, *:before, *:after {
+  }
+  *,
+  *:before,
+  *:after {
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
-}
-.cs-topper {
+  }
+  .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
     text-transform: uppercase;
     text-align: inherit;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     font-weight: 700;
     color: var(--primary);
     margin-bottom: 0.25rem;
     display: block;
-}
-
-.cs-title {
+  }
+  .cs-title {
     font-size: var(--headerFontSize);
     font-weight: 900;
     line-height: 1.2em;
@@ -52,9 +51,8 @@ body {
     margin: 0 0 1rem 0;
     color: var(--headerColor);
     position: relative;
-}
-
-.cs-text {
+  }
+  .cs-text {
     font-size: var(--bodyFontSize);
     line-height: 1.5em;
     text-align: inherit;
@@ -62,8 +60,7 @@ body {
     max-width: 40.625rem;
     margin: 0;
     color: var(--bodyTextColor);
-}
-                            
+  }
   .cs-button-solid {
     z-index: 1;
     position: relative;
@@ -214,8 +211,8 @@ body {
   }
 }
 /*-- -------------------------- -->
-<---      Dark Mode Toggle      -->
-<--- -------------------------- -*/
+    <---      Dark Mode Toggle      -->
+    <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #dark-mode-toggle .cs-sun {
@@ -275,8 +272,8 @@ body {
   }
 }
 /*-- -------------------------- -->
-<---     Mobile Navigation      -->
-<--- -------------------------- -*/
+    <---     Mobile Navigation      -->
+    <--- -------------------------- -*/
 /* Mobile - 1023px */
 @media only screen and (max-width: 63.9375rem) {
   body.cs-open {
@@ -528,8 +525,8 @@ body {
   }
 }
 /*-- -------------------------- -->
-<---     Navigation Dropdown    -->
-<--- -------------------------- -*/
+    <---     Navigation Dropdown    -->
+    <--- -------------------------- -*/
 /* Mobile - 1023px */
 @media only screen and (max-width: 63.9375rem) {
   #cs-navigation .cs-dropdown {
@@ -736,8 +733,8 @@ body {
   }
 }
 /*-- -------------------------- -->
-<---     Desktop Navigation     -->
-<--- -------------------------- -*/
+    <---     Desktop Navigation     -->
+    <--- -------------------------- -*/
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #cs-navigation {
@@ -845,8 +842,8 @@ body {
   }
 }
 /*-- -------------------------- -->
-<---   Interior Page Header     -->
-<--- -------------------------- -*/
+    <---   Interior Page Header     -->
+    <--- -------------------------- -*/
 /* Mobile */
 @media only screen and (min-width: 0rem) {
   #int-hero {
@@ -929,9 +926,8 @@ body {
   }
 }
 /*-- -------------------------- -->
-<---            CTA             -->
-<--- -------------------------- -*/
-
+    <---            CTA             -->
+    <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #cta-403 {
@@ -1085,158 +1081,155 @@ body {
     margin-left: 0;
   }
 }
-                                
 /*-- -------------------------- -->
-<---          Footer            -->
-<--- -------------------------- -*/
-
+    <---          Footer            -->
+    <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #footer-1390 {
-      padding: var(--sectionPadding);
-      background-color: #fff;
-      position: relative;
-      z-index: 1;
+    padding: var(--sectionPadding);
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
   }
   #footer-1390 .cs-container {
-      width: 100%;
-      max-width: 80rem;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #footer-1390 .cs-top {
-      width: 100%;
-      margin-bottom: 2.5rem;
-      /* 24px - 64px */
-      padding-bottom: clamp(1.5rem, 5vw, 4rem);
-      border-bottom: 1px solid #4e4b66;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      /* 24px - 40px */
-      gap: clamp(1.25rem, 4vw, 2.5rem);
+    width: 100%;
+    margin-bottom: 2.5rem;
+    /* 24px - 64px */
+    padding-bottom: clamp(1.5rem, 5vw, 4rem);
+    border-bottom: 1px solid #4e4b66;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* 24px - 40px */
+    gap: clamp(1.25rem, 4vw, 2.5rem);
   }
   #footer-1390 .cs-ul {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      row-gap: 0.5rem;
-      /* 24px - 36px */
-      column-gap: clamp(1.5rem, 4vw, 2.25rem);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5rem;
+    /* 24px - 36px */
+    column-gap: clamp(1.5rem, 4vw, 2.25rem);
   }
   #footer-1390 .cs-li {
-      list-style: none;
+    list-style: none;
   }
   #footer-1390 .cs-link {
-      /* 14px - 16px */
-      font-size: clamp(0.875rem, 1.5vw, 1rem);
-      line-height: 1.5em;
-      text-decoration: none;
-      margin: 0;
-      color: #4e4b66;
-      display: block;
-      transition: color 0.3s;
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    text-decoration: none;
+    margin: 0;
+    color: #4e4b66;
+    display: block;
+    transition: color 0.3s;
   }
   #footer-1390 .cs-link:hover {
-      color: var(--primary);
+    color: var(--primary);
   }
   #footer-1390 .cs-logo {
-      width: 100%;
-      max-width: 13.0625rem;
-      height: auto;
-      display: block;
+    width: 100%;
+    max-width: 13.0625rem;
+    height: auto;
+    display: block;
   }
   #footer-1390 .cs-logo-img {
-      width: 100%;
-      height: auto;
-      display: block;
+    width: 100%;
+    height: auto;
+    display: block;
   }
   #footer-1390 .cs-bottom {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
   #footer-1390 .cs-social {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
   }
   #footer-1390 .cs-social-li {
-      list-style: none;
+    list-style: none;
   }
   #footer-1390 .cs-social-link {
-      width: 2rem;
-      height: 2rem;
-      background-color: #4e4b66;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: background-color 0.3s;
+    width: 2rem;
+    height: 2rem;
+    background-color: #4e4b66;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
   }
   #footer-1390 .cs-social-link:hover {
-      background-color: var(--primary);
+    background-color: var(--primary);
   }
   #footer-1390 .cs-social-link:hover .cs-social-icon {
-      filter: grayscale(1) brightness(1000%);
-      opacity: 1;
+    filter: grayscale(1) brightness(1000%);
+    opacity: 1;
   }
   #footer-1390 .cs-social-icon {
-      width: 0.75rem;
-      height: auto;
-      display: block;
-      opacity: 0.6;
-      transition: opacity 0.3s;
+    width: 0.75rem;
+    height: auto;
+    display: block;
+    opacity: 0.6;
+    transition: opacity 0.3s;
   }
   #footer-1390 .cs-copyright {
-      font-size: 1rem;
-      color: #bababa;
-      line-height: 1.5em;
-      margin: 0;
-      display: block;
+    font-size: 1rem;
+    color: #bababa;
+    line-height: 1.5em;
+    margin: 0;
+    display: block;
   }
   #footer-1390 .cs-copyright-link,
   #footer-1390 .cs-separater {
-      font-size: 1rem;
-      text-decoration: none;
-      color: #4e4b66;
-      transition: color 0.3s;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #4e4b66;
+    transition: color 0.3s;
   }
   #footer-1390 .cs-copyright-link:hover,
   #footer-1390 .cs-separater:hover {
-      color: var(--primary);
+    color: var(--primary);
   }
   #footer-1390 .cs-separater {
-      margin: 0 1rem;
-      display: inline-block;
+    margin: 0 1rem;
+    display: inline-block;
   }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
   #footer-1390 .cs-top {
-      align-items: flex-start;
+    align-items: flex-start;
   }
   #footer-1390 .cs-bottom {
-      flex-direction: row;
-      justify-content: center;
+    flex-direction: row;
+    justify-content: center;
   }
   #footer-1390 .cs-flex {
-      margin: 0 auto;
+    margin: 0 auto;
   }
   #footer-1390 .cs-social {
-      /* sends it to the right in the 3rd position */
-      order: 3;
+    /* sends it to the right in the 3rd position */
+    order: 3;
   }
 }
-                              
